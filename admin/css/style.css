@@ -1,0 +1,59 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;font-family: verdana;}
+
+#header{width: 100%;height: 60px;background:#0278AE }
+#logo{width: 20%; height: 60px;float: left}
+#title{width: 75%; height: 60px;float: left}
+#link{width: 5%; height: 60px;float: left}
+#logo h2{text-align: center;line-height: 60px;}
+#logo h2 a{text-decoration: none;color: #51ADCF; text-shadow: 3px 3px 3px #000}
+#title h2{color: #fff; text-align: center;text-shadow: 3px 3px 3px #000 ; line-height: 60px}
+#link h3{text-align: centre; line-height: 60px;}
+#link h3 a{text-decoration: none; color: #fff; display: block;}
+#link h3:hover{background: #51ADCF}
+
+
+#bodyleft{width: 18%;height: 650px;background:#0278AE;float: left;overflow-y: auto;}
+#bodyleft h3{color: #fff;text-align:center;font-size: 12px;background: #51ADCF; height: 30px;line-height: 30px;font-weight: bold;margin-bottom: 2%;}
+#bodyleft ul{ list-style-type: none;}
+#bodyleft ul li{transition:all 0.3s;width:100%;height:30px;line-height: 30px;padding-left: 5%;box-sizing: border-box;}
+#bodyleft ul li a{transition:all 0.3s;text-decoration: none;color: #51ADCF;font-size: 12px;font-weight: bold;}
+#bodyleft ul li:hover{background: #fff}
+#bodyleft ul li:hover a{color: #51ADCF;padding-left: 5%;box-sizing: border-box;text-shadow: none;}
+
+
+#bodyright{width: 82%;height: 550px;background:#fff;float: left;overflow-y: auto;}
+#bodyright h3{color: #fff;text-align: center;font-size: 12px;background: #51ADCF;height:30px;line-height: 30px;font-weight: normal;margin-bottom: 2%;}
+
+
+#add{width:100%;padding: 2%;box-sizing: border-box;background: #0278AE;}
+#add details{width: 60%;margin: auto;}
+#add details summary{width: 100%;text-align: center;height: 40px;color: #fff;border: 1px solid #51ADCF;font-size: 12px;line-height: 30px;outline: none;cursor: pointer;}
+#add details form{background:#0278AE;padding: 3%;box-sizing: border-box;}
+#add details form input{font-size: 12px;width: 100%;height: 30px;outline: none;padding-left: 3%;box-sizing: border-box;margin-bottom: 2%;}
+#add details form select{font-size: 12px;width: 100%;height: 30px;outline: none;padding-left: 3%;box-sizing: border-box;margin-bottom: 2%;}
+#add details form button{width: 40%;height: 30px;background: none;outline: none;border: 1px solid #51ADCF;color: #fff;font-size: 12px;}
+#add details form button:hover{curser:pointer;background: #fff;color: #0278AE;}
+#add table{width: 100%;margin:auto;padding: 4%;}
+#add table tr th{height: 35px;background: #0278AE;color: #fff;font-size: 12px;text-align: left;padding-left: 2%;box-sizing: border-box;}
+#add  table tr td{height: 30px;padding-left: 2%;box-sizing: border-box;font-size: 14px;color: #fff;}
+
+
+#edit{width:50%; margin: auto;padding: 2%;box-sizing: border-box;background: #0278AE;}
+#edit input{font-size: 12px;width: 100%;height: 30px;outline: none;padding-left: 3%;box-sizing: border-box;margin-bottom: 2%;}
+#edit button{cursor: pointer;width: 40%;height: 30px;background: none;outline: none;border: 1px solid #fff;color:#fff;font-size: 12px;}
+#edit button:hover{background: #fff;color: #0278AE;}
+#edit select{font-size: 12px;width: 100%;height: 30px;outline: none;padding-left: 3%;box-sizing: border-box;margin-bottom: 2%;}
+
+#con{width: 100%;padding:5%;box-sizing: border-box;padding-left: 35%;}
+#con form table{width: 100%:padding:5%;box-sizing: border-box;}
+#con{width: 100%;}
+#con form table tr td{width: 50%;height: 35px;font-size: 12px;color:#0278AE;font-weight: bold;}
+#con form table tr td input{border: 1px solid #0278AE;color: #0278AE; border-radius: 3px;width:100%;height: 25px;outline: none;padding-left: 5%;}
+#con form button{width: 55%;height: 35px;border:1px solid #51ADCF;background:#51ADCF;color:#fff;outline: none;cursor: pointer;font-weight: bold;}
+#con form button:hover{background: #FFF;color: #51ADCF;}
+
+#about{width: 60%;margin: auto;padding: 5%;box-sizing: border-box;}
+#about textarea{width: 100%;height: 150px;outline: none;padding: 5%;box-sizing: border-box;}
+#about button{float:right; width: 55%;height: 35px;border:1px solid #51ADCF;background:#51ADCF;color:#fff;outline: none;cursor: pointer;font-weight: bold;}
+#about button:hover{background: #FFF;color: #51ADCF;}
